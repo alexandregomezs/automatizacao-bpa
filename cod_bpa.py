@@ -70,9 +70,9 @@ class AutomationBpa:
     def double_tab():
         AutomationBpa.verificar_parada()
         pyautogui.press("tab")
-        sleep(0.3)
+        sleep(0.1)
         pyautogui.press("tab")
-        sleep(0.3)
+        sleep(0.1)
 
 # Função que monitora a tecla ESC para interromper
 def monitorar_esc():
